@@ -9,9 +9,8 @@ variable "azureRegion" {
 #  Resource Group Name
 variable "resourceGroupName" {
   type    = string
-  default = "RG-DemoGitHub"
+  default = "WEUDEERSGZZZF00"
 }
-
 
 # Variables pour l'authentification du provider Terraform  
 variable "AzureSubscriptionID" {

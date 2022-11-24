@@ -11,4 +11,8 @@
 resource "azurerm_resource_group" "Terra_tfbackend_rg" {
   name     = var.resourceGroupName
   location = var.azureRegion
+
+  tags {
+    owner = "damien.esmilaire@exakis-nelite.com"
+  }
 }

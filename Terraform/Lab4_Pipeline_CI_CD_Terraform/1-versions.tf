@@ -33,10 +33,8 @@ terraform {
       # Check Changelog : https://github.com/terraform-providers/terraform-provider-azurerm/blob/master/CHANGELOG.md
       source  = "hashicorp/azurerm"
       version = "= 2.98.0"
-
     }
-
-}
+  }
 }
 
 # Configure the Azure Provider
