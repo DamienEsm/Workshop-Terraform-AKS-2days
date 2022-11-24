@@ -9,7 +9,7 @@ variable "azureRegion" {
 #  Resource Group Name
 variable "resourceGroupName" {
   type    = string
-  default = "WEUDEERSGZZZF00"
+  default = "WEUDEERSGZZZF01"
 }
 
 # Variables pour l'authentification du provider Terraform  
