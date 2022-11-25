@@ -10,6 +10,7 @@ resource "azurerm_container_registry" "Terra-acr" {
 # https://www.terraform.io/language/values/outputs#declaring-an-output-value
 # cette output value sera utilisée dans un datasources terraform_remote_state dans le code du cluster AKS
 # pour l'affectation du role ACR Pull au cluster AKS sur cette registry
+
 output "acr-id" {
   value = azurerm_container_registry.Terra-acr.id
 }
