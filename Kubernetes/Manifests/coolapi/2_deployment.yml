@@ -16,5 +16,12 @@ spec:
       containers:
         - name: "coolapi"
           image: "acrdam25112022.azurecr.io/coolapi:1.0.0"
+          resources:
+            limits:
+              cpu: "1"
+              memory: "32Mi"
+            requests:
+              cpu: "0.5"
+              memory: "4Mi"
           ports:
           - containerPort: 3000
